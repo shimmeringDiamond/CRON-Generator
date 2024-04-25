@@ -1,0 +1,35 @@
+
+thead {
+    display: block;
+}
+.small-input {
+    width: 30px; /* Set the width */
+    padding: 5px; /* Add padding */
+    font-size: 14px; /* Set font size */
+}
+.flex-container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container-horizontal {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-container-vertical {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.flex-list {
+    padding: 5px;
+    text-align: left;
+}
+.spacer {
+    border-left: 1px solid white; /* Change the color and thickness as needed */
+    margin-right: 10px; /* Adjust the space between the spacer and content */
+    margin-left: 10px;
+}
